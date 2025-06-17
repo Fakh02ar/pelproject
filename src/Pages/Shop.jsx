@@ -42,7 +42,7 @@ import micro from '../assets/micro-img.webp';
 import micro2 from '../assets/micro-2.webp';
 import glory from '../assets/glory.webp';
 import glory2 from '../assets/glory-2.webp';
-import silver from '../assets/silver-img.webp';
+import silver from '../assets/Silver-img.webp';
 import black from '../assets/black.webp';
 import freezer from '../assets/freezer.webp';
 import freez from '../assets/freez-2.webp';
