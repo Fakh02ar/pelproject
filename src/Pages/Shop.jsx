@@ -18,7 +18,7 @@ import life from '../assets/life-img.webp';
 import life2 from '../assets/life-2.webp';
 import jut from '../assets/jut-img.webp';
 import jut2 from '../assets/jut-2.webp';
-import pearl from '../assets/Pearl.webp'; 
+import pearl from '../assets/Pearl.webp';
 import pearl2 from '../assets/pearl-2.webp';
 import spinner from '../assets/spinner.webp';
 import washing from '../assets/washing.webp';
@@ -27,7 +27,7 @@ import oven2 from '../assets/oven-2.webp';
 import semi from '../assets/semi.webp';
 import auto from '../assets/auto.webp';
 import layer from '../assets/layer-img.webp';
-import maroon from '../assets/maroon-img.webp';
+import maroon from '../assets/Maroon-img.webp'; // ✅ Corrected capital M
 import gray from '../assets/gray-mec.webp';
 import mec from '../assets/mec-2.webp';
 import steel from '../assets/steel-mec.webp';
@@ -47,8 +47,6 @@ import black from '../assets/black.webp';
 import freezer from '../assets/freezer.webp';
 import freez from '../assets/freez-2.webp';
 import white from '../assets/white.webp';
-
-// Keep rest of your code unchanged
 
 
 const products = [
