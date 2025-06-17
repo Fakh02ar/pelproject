@@ -5,7 +5,7 @@ import fuji from '../assets/fuji.png';
 import hitac from '../assets/hitac.png';
 import carrier from '../assets/carrier.png';
 import LG from '../assets/LG.png';
-import LV from '../assets/LV.avif';
+import LV from '../assets/Lv.avif';
 
 const About = () => {
   const timelineData = [
