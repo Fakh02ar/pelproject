@@ -1,13 +1,9 @@
 import React from "react";
-import Dc from "../assets/tu.png"; 
-import refe from "../assets/refe.png"; 
-import image3 from '../assets/image3.png'
-import oven from '../assets/oven.png'
-
-import image2 from '../assets/image2.png'
-
-
-
+import airConditioner from "../assets/tu.png"; 
+import refrigerator from "../assets/refe.png"; 
+import washingMachine from '../assets/image3.png';
+import microwave from '../assets/oven.png';
+import waterDispenser from '../assets/image2.png';
 
 const Categories = () => {
   return (
@@ -24,8 +20,7 @@ const Categories = () => {
         <div
           className="relative h-80 hover:transform transition-transform duration-500 hover:scale-110 cursor-pointer"
           style={{
-           
-            backgroundImage: `url(${Dc})`,
+            backgroundImage: `url(${airConditioner})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "right center",
@@ -48,7 +43,7 @@ const Categories = () => {
         <div
           className="relative h-[303px] mt-[9px] hover:transform transition-transform duration-500 hover:scale-110 cursor-pointer"
           style={{
-            backgroundImage: `url(${refe})`,
+            backgroundImage: `url(${refrigerator})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "right center",
@@ -74,8 +69,7 @@ const Categories = () => {
         <div
           className="relative h-75 hover:transform transition-transform duration-500 hover:scale-110 cursor-pointer"
           style={{
-           
-            backgroundImage: `url(${image3})`,
+            backgroundImage: `url(${washingMachine})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "right center",
@@ -98,7 +92,7 @@ const Categories = () => {
         <div
           className="relative h-[301px] hover:transform transition-transform duration-500 hover:scale-110 cursor-pointer"
           style={{
-            backgroundImage: `url(${oven})`,
+            backgroundImage: `url(${microwave})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "right center",
@@ -122,8 +116,7 @@ const Categories = () => {
         <div
           className="relative h-75 hover:transform transition-transform duration-500 hover:scale-110 cursor-pointer"
           style={{
-           
-            backgroundImage: `url(${Dc})`,
+            backgroundImage: `url(${airConditioner})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "right center",
@@ -146,7 +139,7 @@ const Categories = () => {
         <div
           className="relative h-[301px] hover:transform transition-transform duration-500 hover:scale-110 cursor-pointer"
           style={{
-            backgroundImage: `url(${image2})`,
+            backgroundImage: `url(${waterDispenser})`,
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "right center",

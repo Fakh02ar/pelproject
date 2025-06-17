@@ -6,6 +6,7 @@ import hitac from '../assets/hitac.png';
 import carrier from '../assets/carrier.png';
 import LG from '../assets/LG.png';
 import LV from '../assets/Lv.avif';
+import thumb from '../assets/thumb.webp';
 
 const About = () => {
   const timelineData = [
@@ -64,7 +65,7 @@ const About = () => {
 
         <hr className='my-8 mx-10 text-gray-200' />
 
-        <h2 className='mt-6 px-10 text-[26px] font-[700]'>We are here to “Change your life”.</h2>
+        <h2 className='mt-6 px-10 text-[26px] font-[700]'>We are here to "Change your life".</h2>
         <p className='px-10 text-[15px] pt-4 leading-7 text-[#282828] pb-8'>
           Since its inception, PEL has been operating keeping in view the philosophy of innovation and advancement...
         </p>
@@ -93,7 +94,7 @@ const About = () => {
             <div key={index} className="flex items-start gap-20 relative">
               {/* Left Logo with Circle - Only visible on md screens and up */}
               <div className="hidden md:block relative flex-shrink-0 w-36 h-36">
-                <div className="h-[160px] relative bg-[url('/src/assets/thumb.webp')] bg-cover w-[227px] bg-center p-1">
+                <div className="h-[160px] relative bg-cover w-[227px] bg-center p-1" style={{ backgroundImage: `url(${thumb})` }}>
                   <img
                     src={item.logo}
                     alt="Logo"

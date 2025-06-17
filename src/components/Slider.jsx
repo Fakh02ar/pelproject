@@ -1,16 +1,16 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Ac from '../assets/Ac.png';
+import airConditioner from '../assets/Ac.png';
 import banner from '../assets/banner.png';
-import frig from '../assets/frig.png';
+import refrigerator from '../assets/frig.png';
 import led from '../assets/led.png';
-import machine from '../assets/machine.png';
+import washingMachine from '../assets/machine.png';
 
 const slides = [
-  { id: 1, image: Ac },
+  { id: 1, image: airConditioner },
   { id: 2, image: banner },
-  { id: 3, image: frig },
+  { id: 3, image: refrigerator },
   { id: 4, image: led },
-  { id: 5, image: machine },
+  { id: 5, image: washingMachine },
 ];
 
 const Slider = () => {
